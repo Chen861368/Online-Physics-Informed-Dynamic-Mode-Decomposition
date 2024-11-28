@@ -30,6 +30,11 @@ The code provided in the repository is organized to follow the sequence of image
 5. **Output**:
     - The script will process the data and generate the figures, saving them to the specified path. While the output figures will match those in the paper in terms of data and overall appearance, slight variations in formatting may occur due to differences in plotting libraries or versions.
 
+Based on the first round of review comments for the paper, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `banach-Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive, indicating the specific example they correspond to. 
+
+With the exception of the ‘Cylinder Flow’ example, the data for all other examples can be directly generated using the provided code, so there is no need to upload additional data. For the ‘Cylinder Flow’ example, the data can be downloaded independently from [https://www.databookuw.com/](https://www.databookuw.com/)."
+
+
 
 #### Code Dependencies
 This research integrates various algorithms, including OPIDMD, piDMD, and Streaming DMD, by referencing open-source libraries such as PyDMD and online DMD codebases. We are grateful for these open-source contributions, and we have acknowledged and cited them appropriately in the paper. These libraries provide robust implementations of dynamic mode decomposition methods, which significantly facilitated our comparative analysis and validation.
