@@ -23,7 +23,7 @@ The **coefficient of determination \( R^2 \)** was used as the primary metric fo
 - **Generalization Performance**: OPIDMD demonstrates strong generalization performance in **high-dimensional nonlinear systems** with limited sample data.
 - **Performance Comparison**: The repository includes tables summarizing the performance of OPIDMD and other algorithms, showcasing their prediction accuracy under varying noise and constraints.
 
-| **System**          | **True DMD** | **Exact DMD** | **piDMD** | **OPIDMD** | **ODMD**              |
+| **System**          | **True DMD** | **Exact DMD** | **piDMD** | **OPIDMD** | **Online DMD**              |
 |----------------------|--------------|---------------|-----------|------------|-----------------------|
 | 2D Advection         | 0.920        | 0.808         | 0.818     | 0.830      | `-9.73×10^{196}`     |
 | Schrödinger Equation | 0.915        | 0.808         | 0.838     | 0.885      | 0.755                |
