@@ -4,6 +4,15 @@
 #### Introduction
 This document provides a detailed description of the data, images, and algorithms used in the paper "Online Physics-Informed Dynamic Mode Decomposition: Theory and Applications". The purpose is to ensure reproducibility and facilitate a deeper understanding of the methodologies employed.
 
+The methods presented in the paper are designed for time-series data that feature a large number of samples but relatively low dimensionality (e.g., 30 × 1,000,000). Such data types are commonly encountered in sensor sampling systems, one of the most prevalent application scenarios. This repository retains the original code corresponding to each revision of the paper, stored in branches that reflect changes made during the writing and review process.
+
+### Updates Based on Reviewer Comments
+In response to the first round of review comments, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `-Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive and indicate the specific example they correspond to.
+
+With the exception of the ‘Cylinder Flow’ example, the data for all other examples can be directly generated using the provided code, so there is no need to upload additional data. For the ‘Cylinder Flow’ example, the data can be downloaded independently from [https://www.databookuw.com/](https://www.databookuw.com/).
+
+Below is an introduction to the files in the `main` directory.
+
 #### Code Organization and Naming
 The code provided in the repository is organized to follow the sequence of image generation as presented in the paper. The scripts are named according to the specific figures or sets of figures they generate, ensuring clarity and ease of use. Below is the structure of the codebase and the corresponding explanations:
 
@@ -29,11 +38,6 @@ The code provided in the repository is organized to follow the sequence of image
 
 5. **Output**:
     - The script will process the data and generate the figures, saving them to the specified path. While the output figures will match those in the paper in terms of data and overall appearance, slight variations in formatting may occur due to differences in plotting libraries or versions.
-
-### Updates Based on Reviewer Comments
-In response to the first round of review comments, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `banach-Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive and indicate the specific example they correspond to.
-
-With the exception of the ‘Cylinder Flow’ example, the data for all other examples can be directly generated using the provided code, so there is no need to upload additional data. For the ‘Cylinder Flow’ example, the data can be downloaded independently from [https://www.databookuw.com/](https://www.databookuw.com/).
 
 
 #### Code Dependencies
