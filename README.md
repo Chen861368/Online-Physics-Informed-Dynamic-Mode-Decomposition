@@ -7,7 +7,7 @@ This document provides a detailed description of the data, images, and algorithm
 The methods presented in the paper are designed for time-series data that feature a large number of samples but relatively low dimensionality (e.g., 30 × 1,000,000). Such data types are commonly encountered in sensor sampling systems, one of the most prevalent application scenarios. This repository retains the original code corresponding to each revision of the paper, stored in branches that reflect changes made during the writing and review process.
 
 ### Updates Based on Reviewer Comments
-In response to the first round of review comments, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `-Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive and indicate the specific example they correspond to.
+In response to the first round of review comments, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive and indicate the specific example they correspond to.
 
 With the exception of the ‘Cylinder Flow’ example, the data for all other examples can be directly generated using the provided code, so there is no need to upload additional data. For the ‘Cylinder Flow’ example, the data can be downloaded independently from [https://www.databookuw.com/](https://www.databookuw.com/).
 
