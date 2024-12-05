@@ -11,7 +11,6 @@ This document provides a detailed description of the data, images, and algorithm
 
 The methods presented in the paper are tailored for time-series data characterized by a large number of samples but relatively low dimensionality in terms of the state vector (e.g., a state vector dimension of 30 and 1,000,000 data samples). Such data types are commonly encountered in sensor sampling systems, one of the most prevalent application scenarios. This repository retains the original code corresponding to each revision of the paper, stored in branches that reflect changes made during the writing and review process.
 
-Compared with existing algorithms such as Exact DMD, Online DMD, and piDMD, OPIDMD achieves the best prediction performance in short-term forecasting, e.g.  an R^2  value of 0.991 for noisy Lorenz system. The proposed method employs a time-varying linear operator, offering a promising solution for the real-time simulation and control of complex dynamical systems.
 
 ### Updates Based on Reviewer Comments
 In response to the first round of review comments, we have added several new examples. The corresponding code for these examples has been placed in a new repository titled `Here’s-the-code-modified-according-to-the-reviewer’s-comments`. The filenames within the repository are descriptive and indicate the specific example they correspond to.
