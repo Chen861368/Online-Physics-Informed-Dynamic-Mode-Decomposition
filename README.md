@@ -1,6 +1,11 @@
 
 ### Data and Code for Images and Algorithms in the Paper "Online Physics-Informed Dynamic Mode Decomposition: Theory and Applications"
 
+#### Paper Abstract
+Dynamic Mode Decomposition (DMD) has received increasing research attention due to its capability to analyze and model complex dynamical systems. However, it faces challenges in computational efficiency, noise sensitivity, and difficulty adhering to physical laws, which negatively affect its performance.
+Addressing these issues, we present Online Physics-informed DMD (OPIDMD), a novel adaptation of DMD into a convex optimization framework. 
+This approach not only ensures convergence to a unique global optimum, but also enhances the efficiency and accuracy of modeling dynamical systems in an online setting. Leveraging the Bayesian DMD framework, we propose a probabilistic interpretation of Physics-informed DMD (piDMD), examining the impact of physical constraints on the DMD linear operator. Further, we implement online proximal gradient descent and formulate specific algorithms to tackle problems with different physical constraints, enabling real-time solutions across various scenarios. Compared with existing algorithms such as Exact DMD, Online DMD, and piDMD, OPIDMD achieves the best prediction performance in short-term forecasting, e.g.  an R^2 value of 0.991 for noisy Lorenz system. The proposed method employs a time-varying linear operator, offering a promising solution for the real-time simulation and control of complex dynamical systems.
+
 #### Introduction
 This document provides a detailed description of the data, images, and algorithms used in the paper "Online Physics-Informed Dynamic Mode Decomposition: Theory and Applications". The purpose is to ensure reproducibility and facilitate a deeper understanding of the methodologies employed.
 
