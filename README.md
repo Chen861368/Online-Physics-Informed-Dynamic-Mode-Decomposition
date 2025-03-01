@@ -3,6 +3,16 @@
 
 #### Introduction
 This document provides a detailed description of the data, images, and algorithms used in the paper "Online Physics-Informed Dynamic Mode Decomposition: Theory and Applications". The purpose is to ensure reproducibility and facilitate a deeper understanding of the methodologies employed.
+The main framework of the paper is shown in the figure below:
+
+<p align="center"> <img src="OPIDMD.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="60%" /> </p>
+
+By formulating the online system update in the paper as a convex optimization problem, we applied the following method for solving it:
+
+<p align="center">
+  <img src="OPIDMD_algorithm.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="80%" />
+</p>
+
 
 ### Updates Based on Reviewer Comments
 
