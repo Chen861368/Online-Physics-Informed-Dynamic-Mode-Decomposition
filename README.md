@@ -1,7 +1,9 @@
 
 ### Data and Code for Images and Algorithms in the Paper "Online Physics-Informed Dynamic Mode Decomposition: Theory and Applications"
 
+If you're interested in learning more about my research, a brief introduction of **my personal research homepage** can be found on [GitHub](https://github.com/Chen861368/Personal-Research-Path).
 
+---
 #### Paper Abstract
 Dynamic Mode Decomposition (DMD) has received increasing research attention due to its capability to analyze and model complex dynamical systems. However, it faces challenges in computational efficiency, noise sensitivity, and difficulty adhering to physical laws, which negatively affect its performance.
 Addressing these issues, we present Online Physics-informed DMD (OPIDMD), a novel adaptation of DMD into a convex optimization framework. 
