@@ -516,8 +516,8 @@ def plot_solution(x, t, u, save_path=None):
     surf = ax.plot_surface(T, X, u, cmap='viridis', edgecolor='none', alpha=0.9)
     
     # Customize axes labels with appropriate padding and larger font size
-    ax.set_xlabel('Time t', fontsize=14, labelpad=20)
-    ax.set_ylabel('Space x', fontsize=14, labelpad=20)
+    ax.set_xlabel('Space x', fontsize=14, labelpad=20)
+    ax.set_ylabel('Time t', fontsize=14, labelpad=20)
     ax.set_zlabel('u(x, t)', fontsize=14, labelpad=10)
     
     # Set the 3D plot view for better visualization
